@@ -17,6 +17,7 @@
         }
     ],
     "require": {
+        "yiisoft/yii2": "*",
         "andatech/yii2-core": "*"
     },
     "autoload": {
