@@ -1,0 +1,63 @@
+{
+    "name": "madone/yii2ikhlas",
+    "description": "Development For ikhlas service",
+    "keywords": ["yii2", "framework", "advanced", "improved", "application template", "nenad"],
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "tutorial": "http://www.freetuts.org/tutorial/view?id=6",
+        "source": "https://github.com/nenad-zivkovic/yii2-advanced-template"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "nenad/yii2-password-strength": "*",
+        "mihaildev/yii2-ckeditor": "*",
+        "dmstr/yii2-adminlte-asset": "2.*",
+        "mdmsoft/yii2-admin": "~2.0",
+        "2amigos/yii2-ckeditor-widget": "~1.0",
+        "iutbay/yii2-kcfinder": "*",
+        "kartik-v/yii2-widgets": "*",
+        "yurkinx/yii2-image": "dev-master",
+        "philippfrenzel/yii2fullcalendar": "*",
+        "beastbytes/yii2-wizard": "^1.0",
+        "kartik-v/yii2-date-range": "*",
+        "wbraganca/yii2-dynamicform": "*",
+        "yiidoc/yii2-timeago": "dev-master",
+        "kartik-v/yii2-widget-activeform": "@dev",
+        "wowkaster/yii2-serialize-attributes": "dev-master",
+        "kartik-v/yii2-mpdf": "*",
+        "2amigos/yii2-gallery-widget": "~1.0",
+        "firdows/yii2-mkeditor": "*",
+        "miragesoft/yii2-basicfilemanager": "dev-master",
+        "thaisouthdev/yii2-article": "dev-master",
+        "c006/yii2-migration-utility": "dev-master",
+        "mdmsoft/yii2-autonumber": "~1.0",
+        "firdows/yii2-menu": "dev-master",
+        "kartik-v/yii2-social": "dev-master",
+        "ikhlasservice/yii2-seller": "dev-master",
+        "andatech/yii2-core": "dev-master"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*",
+        "codeception/specify": "*",
+        "codeception/verify": "*"
+    },
+    "config": {
+        "vendor-dir": "_protected/vendor",
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "_protected/vendor/npm",
+            "bower-asset-library": "_protected/vendor/bower"
+        }
+    }
+}
