@@ -6,11 +6,11 @@ use yii\widgets\DetailView;
 use yii\widgets\MaskedInput;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\customer\models\Customer */
+/* @var $model ikhlas\customer\models\Customer */
 /* @var $form yii\widgets\ActiveForm */
 $asset = backend\assets\AppAsset::register($this);
 /* @var $this yii\web\View */
-/* @var $model backend\modules\customer\models\Customer */
+/* @var $model ikhlas\customer\models\Customer */
 
 $this->title = Yii::t('customer', 'สร้างบัญชีลูกค้า');
 $this->params['breadcrumbs'][] = ['label' => Yii::t('system', 'Customers'), 'url' => ['index']];

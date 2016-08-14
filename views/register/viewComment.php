@@ -2,8 +2,8 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use backend\modules\customer\models\RegisterCustomer;
-use backend\modules\customer\models\RegisterCustomerConsider;
+use ikhlas\customer\models\RegisterCustomer;
+use ikhlas\customer\models\RegisterCustomerConsider;
 use yii\widgets\MaskedInput;
 
 //if (isset($model->staffMaterial_id) && $model->status > 1):

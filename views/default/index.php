@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel backend\modules\customer\models\CustomerSearch */
+/* @var $searchModel ikhlas\customer\models\CustomerSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('customer', 'ลูกค้าทั้งหมด');
@@ -30,7 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'fullname',
                 [
                     'attribute' => 'profit_id',
-                    'filter' => backend\modules\customer\models\Profit::getList(),
+                    'filter' => ikhlas\customer\models\Profit::getList(),
                     'value' => function($model) {
                         return $model->profit_id?$model->profit->val:null;
                     }
@@ -44,7 +44,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 [
                     'attribute' => 'status',
                     'format' => 'html',
-                    'filter' => backend\modules\customer\models\Customer::getItemStatus(),
+                    'filter' => ikhlas\customer\models\Customer::getItemStatus(),
                     'value' => function($model) {
                         return $model->statusLabel;
                     }
@@ -52,7 +52,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 [
                     'attribute' => 'seller_id',
                     'format' => 'html',
-                    //'filter' => backend\modules\customer\models\Customer::getItemStatus(),
+                    //'filter' => ikhlas\customer\models\Customer::getItemStatus(),
                     'value' => function($model) {
                         return $model->seller->displayname;
                     },

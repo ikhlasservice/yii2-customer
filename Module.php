@@ -1,10 +1,10 @@
 <?php
 
-namespace backend\modules\customer;
+namespace ikhlas\customer;
 
 class Module extends \yii\base\Module
 {
-    public $controllerNamespace = 'backend\modules\customer\controllers';
+    public $controllerNamespace = 'ikhlas\customer\controllers';
 
     public function init()
     {

@@ -24,7 +24,7 @@ use yii\bootstrap\Modal;
 <?= Html::tag('span', 'เพื่อให้ใบสมัครของท่านได้รับการพิจารณาอย่างรวดเร็ว กรุณากรอกใบสมัครให้ครบถ้วน และเตรียมเอกสารตามรายการต่อไปนี้ พร้อมร้บรองสำเนาถูกต้องทุกฉบับ') ?>
 
 <?=
-$form->field($model, 'doc_list')->checkboxlist(\backend\modules\customer\models\RegisterCustomer::getItemDocList());
+$form->field($model, 'doc_list')->checkboxlist(\ikhlas\customer\models\RegisterCustomer::getItemDocList());
     ?>
 <?=
 $form->field($model, 'doc[]')->widget(FileInput::classname(), [
@@ -47,7 +47,7 @@ $form->field($model, 'doc[]')->widget(FileInput::classname(), [
         'uploadExtraData' => [
             //'slide_id' => $model->id,
             'id' => $model->id,
-            'upload_folder' => \backend\modules\customer\models\RegisterCustomer::UPLOAD_FOLDER . "/" . $model->id,
+            'upload_folder' => \ikhlas\customer\models\RegisterCustomer::UPLOAD_FOLDER . "/" . $model->id,
         //'width' => ArtJob::width,
         ],
     //'maxFileSize' => 2000000,

@@ -1,6 +1,6 @@
 <?php
 
-namespace backend\modules\customer\controllers;
+namespace ikhlas\customer\controllers;
 
 use Yii;
 use yii\web\Controller;
@@ -8,16 +8,16 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\data\ActiveDataProvider;
 use beastbytes\wizard\WizardBehavior;
-use backend\modules\customer\models\Customer;
-use backend\modules\customer\models\CustomerSearch;
-use backend\modules\customer\models\RegisterCustomer;
+use ikhlas\customer\models\Customer;
+use ikhlas\customer\models\CustomerSearch;
+use ikhlas\customer\models\RegisterCustomer;
 use backend\modules\persons\models\Person;
 use backend\modules\persons\models\PersonDetail;
 use backend\modules\persons\models\Address;
 use backend\modules\persons\models\ContactAddress;
 use backend\modules\persons\models\PersonContact;
 use backend\modules\persons\models\PersonCareer;
-use backend\modules\customer\models\RegisterCustomerConsider;
+use ikhlas\customer\models\RegisterCustomerConsider;
 
 /**
  * DefaultController implements the CRUD actions for Customer model.

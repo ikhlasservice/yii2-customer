@@ -1,6 +1,6 @@
 <?php
 
-namespace backend\modules\customer\models;
+namespace ikhlas\customer\models;
 
 use Yii;
 use yii\helpers\ArrayHelper;

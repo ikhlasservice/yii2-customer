@@ -1,10 +1,10 @@
 <?php
 
-namespace backend\modules\customer\controllers;
+namespace ikhlas\customer\controllers;
 
 use Yii;
-use backend\modules\customer\models\Profit;
-use backend\modules\customer\models\ProfitSearch;
+use ikhlas\customer\models\Profit;
+use ikhlas\customer\models\ProfitSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

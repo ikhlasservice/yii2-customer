@@ -23,7 +23,7 @@ use yii\helpers\Html;
         <?= Html::tag('span', 'เพื่อให้ใบสมัครของท่านได้รับการพิจารณาอย่างรวดเร็ว กรุณากรอกใบสมัครให้ครบถ้วน และเตรียมเอกสารตามรายการต่อไปนี้ พร้อมร้บรองสำเนาถูกต้องทุกฉบับ') ?>
         &nbsp;
         <?php
-        $label = \backend\modules\customer\models\RegisterCustomer::getItemDocList();
+        $label = \ikhlas\customer\models\RegisterCustomer::getItemDocList();
         $list = $model->doc_list;
         echo Html::beginTag('ul', ['style' => 'list-style:none;']);
 

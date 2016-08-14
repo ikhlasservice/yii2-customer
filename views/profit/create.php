@@ -4,7 +4,7 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\customer\models\Profit */
+/* @var $model ikhlas\customer\models\Profit */
 
 $this->title = Yii::t('customer', 'Create Profit');
 $this->params['breadcrumbs'][] = ['label' => Yii::t('customer', 'Profits'), 'url' => ['index']];

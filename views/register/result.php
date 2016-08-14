@@ -2,10 +2,10 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
-use backend\modules\customer\models\RegisterCustomer;
+use ikhlas\customer\models\RegisterCustomer;
 
 /* @var $this yii\web\View */
-/* @var $searchModel backend\modules\customer\models\RegisterCustomerSearch */
+/* @var $searchModel ikhlas\customer\models\RegisterCustomerSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('person', 'ผลการพิจารณา');

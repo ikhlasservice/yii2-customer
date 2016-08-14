@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\bootstrap\Modal;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\customer\models\Customer */
+/* @var $model ikhlas\customer\models\Customer */
 
 $this->title = Yii::t('customer', 'ใบสมัครสมาชิก');
 $this->params['breadcrumbs'][] = ['label' => Yii::t('customer', 'Customers'), 'url' => ['index']];

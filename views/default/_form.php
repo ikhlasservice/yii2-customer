@@ -5,7 +5,7 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\customer\models\Customer */
+/* @var $model ikhlas\customer\models\Customer */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 

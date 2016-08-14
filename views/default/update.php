@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\customer\models\Customer */
+/* @var $model ikhlas\customer\models\Customer */
 
 $this->title = Yii::t('system', 'Update {modelClass}: ', [
             'modelClass' => 'Customer',

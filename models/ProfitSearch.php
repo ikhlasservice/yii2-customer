@@ -1,14 +1,14 @@
 <?php
 
-namespace backend\modules\customer\models;
+namespace ikhlas\customer\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use backend\modules\customer\models\Profit;
+use ikhlas\customer\models\Profit;
 
 /**
- * ProfitSearch represents the model behind the search form about `backend\modules\customer\models\Profit`.
+ * ProfitSearch represents the model behind the search form about `ikhlas\customer\models\Profit`.
  */
 class ProfitSearch extends Profit
 {

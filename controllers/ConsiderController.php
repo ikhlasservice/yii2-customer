@@ -1,11 +1,11 @@
 <?php
 
-namespace backend\modules\customer\controllers;
+namespace ikhlas\customer\controllers;
 
 use Yii;
-use backend\modules\customer\models\RegisterCustomer;
-use backend\modules\customer\models\RegisterCustomerConsider;
-use backend\modules\customer\models\RegisterCustomerConsiderSearch;
+use ikhlas\customer\models\RegisterCustomer;
+use ikhlas\customer\models\RegisterCustomerConsider;
+use ikhlas\customer\models\RegisterCustomerConsiderSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

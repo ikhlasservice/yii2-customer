@@ -1,21 +1,21 @@
 <?php
 
-namespace backend\modules\customer\controllers;
+namespace ikhlas\customer\controllers;
 
 use Yii;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\helpers\Json;
-use backend\modules\customer\models\RegisterCustomer;
-use backend\modules\customer\models\RegisterCustomerSearch;
+use ikhlas\customer\models\RegisterCustomer;
+use ikhlas\customer\models\RegisterCustomerSearch;
 use backend\modules\persons\models\Person;
 use backend\modules\persons\models\PersonDetail;
 use backend\modules\persons\models\Address;
 use backend\modules\persons\models\ContactAddress;
 use backend\modules\persons\models\PersonContact;
 use backend\modules\persons\models\PersonCareer;
-use backend\modules\customer\models\RegisterCustomerConsider;
+use ikhlas\customer\models\RegisterCustomerConsider;
 
 /**
  * RegisterController implements the CRUD actions for RegisterCustomer model.
@@ -129,7 +129,7 @@ class RegisterController extends Controller {
 
     public function actionOffer() {
 
-        $searchModel = new \backend\modules\customer\models\RegisterCustomerOffer();
+        $searchModel = new \ikhlas\customer\models\RegisterCustomerOffer();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
         $dataProvider->sort->defaultOrder = ['status' => SORT_DESC];
 
@@ -141,7 +141,7 @@ class RegisterController extends Controller {
     }
 
     public function actionDraft() {
-        $searchModel = new \backend\modules\customer\models\RegisterCustomerDraftSearch();
+        $searchModel = new \ikhlas\customer\models\RegisterCustomerDraftSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('draft', [
@@ -155,7 +155,7 @@ class RegisterController extends Controller {
      * @return mixed
      */
     public function actionConsider() {
-        $searchModel = new \backend\modules\customer\models\RegisterCustomerConsiderSearch();
+        $searchModel = new \ikhlas\customer\models\RegisterCustomerConsiderSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('consider', [
@@ -169,7 +169,7 @@ class RegisterController extends Controller {
      * @return mixed
      */
     public function actionResult() {
-        $searchModel = new \backend\modules\customer\models\RegisterCustomerResult();
+        $searchModel = new \ikhlas\customer\models\RegisterCustomerResult();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('result', [

@@ -7,7 +7,7 @@ use yii\bootstrap\Modal;
 use yii\helpers\Url;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\customer\models\Customer */
+/* @var $model ikhlas\customer\models\Customer */
 
 $this->title = $model->person->fullname;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('system', 'Customers'), 'url' => ['index']];

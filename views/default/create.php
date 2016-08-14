@@ -6,11 +6,11 @@ use yii\bootstrap\ActiveForm;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\customer\models\Customer */
+/* @var $model ikhlas\customer\models\Customer */
 /* @var $form yii\widgets\ActiveForm */
 $asset = backend\assets\AppAsset::register($this);
 /* @var $this yii\web\View */
-/* @var $model backend\modules\customer\models\Customer */
+/* @var $model ikhlas\customer\models\Customer */
 
 $this->title = Yii::t('customer', 'สร้างบัญชีลูกค้า');
 $this->params['breadcrumbs'][] = ['label' => Yii::t('system', 'Customers'), 'url' => ['index']];
@@ -57,7 +57,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 </div>
                 <div class="row"> 
                     <div class="col-sm-5 col-sm-offset-1">
-                        <?= $form->field($model, 'profit_id')->dropDownList(\backend\modules\customer\models\Profit::getList(),['prompt'=>'เลือกกำไร'])->label('กำหนดกำไร'); ?>
+                        <?= $form->field($model, 'profit_id')->dropDownList(\ikhlas\customer\models\Profit::getList(),['prompt'=>'เลือกกำไร'])->label('กำหนดกำไร'); ?>
                     </div>
                 </div>
 
