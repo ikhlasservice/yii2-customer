@@ -6,11 +6,11 @@ use yii\helpers\Url;
 use yii\bootstrap\ActiveForm;
 
 use kartik\widgets\FileInput;
-use backend\modules\persons\models\Person;
+use ikhlas\persons\models\Person;
 use backend\modules\seller\models\RegisterSeller;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\persons\models\Person */
+/* @var $model ikhlas\persons\models\Person */
 /* @var $form yii\widgets\ActiveForm */
 
 $this->title = Yii::t('person', 'ข้อมูลเอกสาร-ตัวแทนจำหน่าย');

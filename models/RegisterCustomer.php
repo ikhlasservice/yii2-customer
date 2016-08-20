@@ -3,12 +3,12 @@
 namespace ikhlas\customer\models;
 
 use Yii;
-use backend\modules\persons\models\Person;
-use backend\modules\persons\models\PersonDetail;
-use backend\modules\persons\models\PersonCareer;
-use backend\modules\persons\models\PersonContact;
-use backend\modules\persons\models\Address;
-use backend\modules\persons\models\Address as ContactAddress;
+use ikhlas\persons\models\Person;
+use ikhlas\persons\models\PersonDetail;
+use ikhlas\persons\models\PersonCareer;
+use ikhlas\persons\models\PersonContact;
+use ikhlas\persons\models\Address;
+use ikhlas\persons\models\Address as ContactAddress;
 use common\models\User;
 use yii\helpers\ArrayHelper;
 use yii\behaviors\AttributeBehavior;

@@ -11,12 +11,12 @@ use beastbytes\wizard\WizardBehavior;
 use ikhlas\customer\models\Customer;
 use ikhlas\customer\models\CustomerSearch;
 use ikhlas\customer\models\RegisterCustomer;
-use backend\modules\persons\models\Person;
-use backend\modules\persons\models\PersonDetail;
-use backend\modules\persons\models\Address;
-use backend\modules\persons\models\ContactAddress;
-use backend\modules\persons\models\PersonContact;
-use backend\modules\persons\models\PersonCareer;
+use ikhlas\persons\models\Person;
+use ikhlas\persons\models\PersonDetail;
+use ikhlas\persons\models\Address;
+use ikhlas\persons\models\ContactAddress;
+use ikhlas\persons\models\PersonContact;
+use ikhlas\persons\models\PersonCareer;
 use ikhlas\customer\models\RegisterCustomerConsider;
 
 /**

@@ -4,16 +4,16 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 //use yii\widgets\ActiveForm;
 //use yii\bootstrap\ActiveForm;
-use backend\modules\persons\models\Person;
+use ikhlas\persons\models\Person;
 use kartik\widgets\DatePicker;
 use kartik\daterange\DateRangePicker;
 use yii\widgets\MaskedInput;
-use backend\modules\persons\models\Degree;
-use backend\modules\persons\models\Nationality;
-use backend\modules\persons\models\Religion;
+use ikhlas\persons\models\Degree;
+use ikhlas\persons\models\Nationality;
+use ikhlas\persons\models\Religion;
 use kartik\widgets\DepDrop;
-use backend\modules\persons\models\LocalProvince;
-use backend\modules\persons\models\Address;
+use ikhlas\persons\models\LocalProvince;
+use ikhlas\persons\models\Address;
 use yii\widgets\DetailView;
 
 ?>

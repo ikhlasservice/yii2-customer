@@ -8,10 +8,10 @@ use kartik\widgets\DatePicker;
 use kartik\daterange\DateRangePicker;
 use yii\widgets\MaskedInput;
 use kartik\widgets\DepDrop;
-use backend\modules\persons\models\Person;
-use backend\modules\persons\models\LocalProvince;
-use backend\modules\persons\models\Address;
-use backend\modules\persons\models\Career;
+use ikhlas\persons\models\Person;
+use ikhlas\persons\models\LocalProvince;
+use ikhlas\persons\models\Address;
+use ikhlas\persons\models\Career;
 ?>
 
 <hr />

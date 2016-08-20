@@ -5,7 +5,7 @@ use yii\helpers\Url;
 //use yii\widgets\ActiveForm;
 use yii\bootstrap\ActiveForm;
 use kartik\widgets\FileInput;
-use backend\modules\persons\models\Person;
+use ikhlas\persons\models\Person;
 use backend\modules\seller\models\RegisterSeller;
 use yii\bootstrap\Modal;
 ?>
